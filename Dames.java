@@ -1,4 +1,3 @@
-
 public class Dames {
 	
 	public static void enoncerRegles()
@@ -6,10 +5,10 @@ public class Dames {
 			System.out.println("             Voici les regles :      ");
 			System.out.println("   -----------------------------------------------------------------------------------------------------------------------------------------------");
 			System.out.println("     - Dans ce jeu les deux joueurs s'affrontent a l'aide de pions");
-           	System.out.println("     - Les pions se dplacent en diagonale, toujours vers l'avant et d'une seule case, et peuvent manger les autres pions en se dplacant par dessus");
+           	System.out.println("     - Les pions se dï¿½placent en diagonale, toujours vers l'avant et d'une seule case, et peuvent manger les autres pions en se dï¿½placant par dessus");
            	System.out.println("     - Lorsque une pion arrive a la fin du plateau il devient une Dame");
-           	System.out.println("     - Une Dame peut se dplacer de plusieurs cases en diagonales, en avant ou en arrire, et manger plusieurs pions");
-           	System.out.println("     - Un joueur a perdu lorsque il ne peut plus se dplacer ou si il n'as plus de pion");
+           	System.out.println("     - Une Dame peut se dï¿½placer de plusieurs cases en diagonales, en avant ou en arriï¿½re, et manger plusieurs pions");
+           	System.out.println("     - Un joueur a perdu lorsque il ne peut plus se dï¿½placer ou si il n'as plus de pion");
            	System.out.println("                  BON JEU !           ");
            	System.out.println("   ----------------------------------------------------------------------------------------------------------------------------------------------");
 	}
@@ -23,7 +22,7 @@ public class Dames {
 		int Largeur = 0,Longueur = 0;
 		int joueur[][] =  new int[Largeur][Longueur];
 		String reponsejoueur;
-		System.out.println("Etes vous prts ? Taper oui pour commencer et non pour voir les rgles ");
+		System.out.println("Etes vous prï¿½ts ? Taper oui pour commencer et non pour voir les rï¿½gles ");
 		reponsejoueur = Isn.readString();
 		char rj = reponsejoueur.charAt(0);
 		if (rj == 'o')
@@ -33,14 +32,14 @@ public class Dames {
 		System.out.println("-------------------------------------");
 		System.out.println("-------------------------------------");
 		System.out.println("	   0 1 2 3 4 5 6 7");
-		System.out.println("        0 |Ê| |Ê|Ê|Ê|Ê|Ê|Ê|");
-		System.out.println("        1 | |Ê|Ê|Ê|Ê|Ê|Ê|Ê|");
-		System.out.println("        2 |Ê| |Ê|Ê|Ê|Ê|Ê|Ê|");
-		System.out.println("        3 |Ê|Ê|Ê|Ê|Ê|Ê|Ê|Ê|");
-		System.out.println("        4 |Ê|Ê|Ê|Ê|Ê|Ê|Ê|Ê|");
-		System.out.println("        5 | |Ê| |Ê|Ê|Ê|Ê|Ê|");
-		System.out.println("        6 |Ê| | |Ê|Ê|Ê|Ê|Ê|");
-		System.out.println("        7 | |Ê|Ê|Ê|Ê|Ê|Ê|Ê|");
+		System.out.println("        0 | | | | | | | | |");
+		System.out.println("        1 | |ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|");
+		System.out.println("        2 |ï¿½| |ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|");
+		System.out.println("        3 |ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|");
+		System.out.println("        4 |ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|");
+		System.out.println("        5 | |ï¿½| |ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|");
+		System.out.println("        6 |ï¿½| | |ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|");
+		System.out.println("        7 | |ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|");
 		System.out.println("--------------------------------------");
 		System.out.println("--------------------------------------");
 		}
